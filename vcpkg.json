@@ -1,0 +1,18 @@
+{
+  "name": "lonexgrad",
+  "version": "1.0.7",
+  "maintainers": "person",
+  "description": "A C++ multi-dimensional tensor library with automatic gradient tracking",
+  "homepage": "https://github.com/Doves788/LonexGrad",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}

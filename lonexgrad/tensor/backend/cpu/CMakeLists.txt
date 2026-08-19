@@ -1,0 +1,36 @@
+target_sources(lonexgrad PRIVATE
+    lonex_assign.cpp
+    lonex_assign.h
+    lonex_backend_cpu.cpp
+    lonex_backend_cpu.h
+    lonex_binary.cpp
+    lonex_binary.h
+    lonex_cast.cpp
+    lonex_cast.h
+    lonex_clamp.cpp
+    lonex_clamp.h
+    lonex_conv.cpp
+    lonex_conv.h
+    lonex_data_types.h
+    lonex_distribution.cpp
+    lonex_distribution.h
+    lonex_index.cpp
+    lonex_index.h
+    lonex_misc.cpp
+    lonex_misc.h
+    lonex_matmul.cpp
+    lonex_reduce.cpp
+    lonex_reduce.h
+    lonex_storage_cpu.h
+    lonex_unary.cpp
+    lonex_unary.h
+
+    kernel/assign.hpp
+    kernel/binary.hpp
+    kernel/clamp.hpp
+    kernel/conv.hpp
+    kernel/distribution.hpp
+    kernel/misc.hpp
+    kernel/reduce.hpp
+    kernel/unary.hpp
+)

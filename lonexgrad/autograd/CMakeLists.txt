@@ -1,0 +1,24 @@
+target_sources(lonexgrad PRIVATE
+    lonex_backward.cpp
+    lonex_backward.h
+    lonex_binary_ops.cpp
+    lonex_binary_ops.h
+    lonex_clamp_ops.cpp
+    lonex_clamp_ops.h
+    lonex_conv_ops.cpp
+    lonex_conv_ops.h
+    lonex_dag.cpp
+    lonex_dag.h
+    lonex_index_ops.cpp
+    lonex_index_ops.h
+    lonex_joining_ops.cpp
+    lonex_joining_ops.h
+    lonex_misc_ops.cpp
+    lonex_misc_ops.h
+    lonex_reduce_ops.cpp
+    lonex_reduce_ops.h
+    lonex_shape_ops.cpp
+    lonex_shape_ops.h
+    lonex_unary_ops.cpp
+    lonex_unary_ops.h
+)
