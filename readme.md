@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/C%2B%2B-20-blue">
   <img src="https://img.shields.io/badge/CMake-3.25%2B-blue">
   <img src="https://img.shields.io/badge/CUDA-12%2B-green">
-  <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
 ---
